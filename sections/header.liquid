@@ -226,9 +226,6 @@
                         {%- endif -%}
                       </li>
                     {%- endfor -%}
-                    <a href="/pages/contact?view=nos-documents" class="menu-drawer__menu-item list-menu__item link link--text focus-inset menu-drawer__menu-item--active"{% if link.current %} aria-current="page"{% endif %}>
-                      <span {%- if link.current %} class="header__active-menu-item"{% endif %}>Nos documents</span>
-                    </a>
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
@@ -514,9 +511,6 @@
                 {%- endif -%}
               </li>
             {%- endfor -%}
-            <a href="/pages/contact?view=nos-documents" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-              <span {%- if link.current %} class="header__active-menu-item"{% endif %}>Nos documents</span>
-            </a>
           </ul>
         </nav>
       {%- elsif section.settings.menu_type_desktop != 'drawer' -%}
